@@ -1,0 +1,38 @@
+/* .btnSesion {
+    background-color:  white;
+    color: #AD1414;
+} */
+
+#btn-Sesion {
+    background-color: white;
+    color: #AD1414;
+    height: 40px;
+}
+
+/* caja-img {
+    background-color: white;
+    width: 40px;
+    cursor: pointer;
+} */
+
+/*
+
+#caja-click-buscador {
+    background-color: white;
+    cursor: pointer;
+    height: 40px;
+} */
+
+/* #caja-click-buscador {
+    background-color: white;
+} */
+
+
+/* .btnCardPrestar {
+    background-color: #AD1414;
+    color: white;
+} */
+
+.footer p {
+    color: white;
+} 
