@@ -31,13 +31,13 @@
                                     <img class="img-fluid mx-3" src="./img/menu.png" alt="" style="width: 30px;">
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Prestamos</a></li>
-                                    <li><a class="dropdown-item" href="#">Devoluciones</a></li>
+                                    <li><a class="dropdown-item" href="prestamos.php">Prestamos</a></li>
+                                    <li><a class="dropdown-item" href="devoluciones.php">Devoluciones</a></li>
                                 </ul>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Inicio</a>
+                                <a class="nav-link text-white" href="index.php">Inicio</a>
                             </li>
                             <li class="nav-item dropdown ">
                                 <a class="nav-link text-white dropdown-toggle" href="#" role="button"
@@ -45,12 +45,12 @@
                                     Género
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Ficción</a></li>
-                                    <li><a class="dropdown-item" href="#">Poesía</a></li>
-                                    <li><a class="dropdown-item" href="#">Drama</a></li>
-                                    <li><a class="dropdown-item" href="#">Fantasía</a></li>
-                                    <li><a class="dropdown-item" href="#">Romance</a></li>
-                                    <li><a class="dropdown-item" href="#">Aventura</a></li>
+                                    <li><a class="dropdown-item" href="menuGenero.php">Ficción</a></li>
+                                    <li><a class="dropdown-item" href="menuGenero.php">Poesía</a></li>
+                                    <li><a class="dropdown-item" href="menuGenero.php">Drama</a></li>
+                                    <li><a class="dropdown-item" href="menuGenero.php">Fantasía</a></li>
+                                    <li><a class="dropdown-item" href="menuGenero.php">Romance</a></li>
+                                    <li><a class="dropdown-item" href="menuGenero.php">Aventura</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item ">
@@ -97,29 +97,18 @@
                 <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./img/corusel-1.png" class="img-fluid d-block" alt="..."
-                                style="width: 100%; height: 400px;">
-                            <!-- <img src="./img/corusel-1.png" class="d-block w-100" alt="..."> -->
+                            <img src="./img/carusel-1.png" class="img-fluid d-block" alt="..."
+                                style="width: 100%; height: 450px; object-fit: cover;">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/corusel-1.png" class="img-fluid d-block" alt="..."
-                                style="width: 100%; height: 400px;">
+                            <img src="./img/carusel-2.png" class="img-fluid d-block" alt="..."
+                                style="width: 100%; height: 450px; object-fit: cover;">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/corusel-1.png" class="img-fluid d-block" alt="..."
-                                style="width: 100%; height: 400px;">
+                            <img src="./img/carusel-3.png" class="img-fluid d-block" alt="..."
+                                style="width: 100%; height: 450px; object-fit: cover;">
                         </div>
                     </div>
-                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button> -->
                 </div>
             </div>
         </div>
@@ -128,51 +117,58 @@
         <div class="row my-4 mx-2">
             <div class="col-12 d-flex justify-content-center">
                 <div class="card m-2" style="width: 12rem;">
-                    <img src="./img/img-libro.png" class="" alt="..." style="">
+                    <img src="./img/image-3.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title pb-2">Cien años de soledad</h5>
-                        <a href="#" class="btn" id="btnCardPrestar"
+                        <p class="fw-medium">Cien años de soledad</p>
+                        <a href="informacionLibro.php" class="btn"
                             style="background-color: #AD1414; color: white;">Prestar</a>
-                    </div>
-                </div>
-
-                <div class="card m-2" style="width: 12rem;">
-                    <img src="./img/img-libro2.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title pb-2">El jardín de las mariposas</h5>
-                        <a href="#" class="btn" style="background-color: #AD1414; color: white;">Prestar</a>
                     </div>
                 </div>
 
                 <div class="card m-2" style="width: 12rem;">
                     <img src="./img/image-3.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title pb-2">Card title</h5>
-                        <a href="#" class="btn" style="background-color: #AD1414; color: white;">Prestar</a>
+                        <p class="fw-medium">El jardín de las mariposas</p>
+                        <!-- <h5 class="card-title pb-2">El jardín de las mariposas</h5> -->
+                        <a href="informacionLibro.php" class="btn"
+                            style="background-color: #AD1414; color: white;">Prestar</a>
                     </div>
                 </div>
 
                 <div class="card m-2" style="width: 12rem;">
-                    <img src="./img/img-libro.png" class="card-img-top" alt="...">
+                    <img src="./img/image-3.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title pb-2">Card title</h5>
-                        <a href="#" class="btn" style="background-color: #AD1414; color: white;">Prestar</a>
+                        <p class="fw-medium">Card title</p>
+                        <!-- <h5 class="card-title pb-2">Card title</h5> -->
+                        <a href="informacionLibro.php" class="btn"
+                            style="background-color: #AD1414; color: white;">Prestar</a>
                     </div>
                 </div>
 
                 <div class="card m-2" style="width: 12rem;">
-                    <img src="./img/img-libro.png" class="card-img-top" alt="...">
+                    <img src="./img/image-3.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title pb-2">Card title</h5>
-                        <a href="#" class="btn" style="background-color: #AD1414; color: white;">Prestar</a>
+                        <p class="fw-medium">Card title</p>
+                        <a href="informacionLibro.php" class="btn"
+                            style="background-color: #AD1414; color: white;">Prestar</a>
                     </div>
                 </div>
 
                 <div class="card m-2" style="width: 12rem;">
-                    <img src="./img/img-libro.png" class="card-img-top" alt="...">
+                    <img src="./img/image-3.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title pb-2">Card title</h5>
-                        <a href="#" class="btn" style="background-color: #AD1414; color: white;">Prestar</a>
+                        <p class="fw-medium">Card title</p>
+                        <a href="informacionLibro.php" class="btn"
+                            style="background-color: #AD1414; color: white;">Prestar</a>
+                    </div>
+                </div>
+
+                <div class="card m-2" style="width: 12rem;">
+                    <img src="./img/image-3.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <p class="fw-medium">Card title</p>
+                        <a href="informacionLibro.php" class="btn"
+                            style="background-color: #AD1414; color: white;">Prestar</a>
                     </div>
                 </div>
             </div>
